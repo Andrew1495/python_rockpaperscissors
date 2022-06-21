@@ -69,7 +69,6 @@ while (player_score < 5 and computer_score < 5 ):
         player_score += 1
 
 
-
     print("Computer Score: ",computer_score,"Your Score: ",player_score,"Tied games: ",tie_score)
 
 while player_score == 5: 
@@ -78,7 +77,7 @@ while player_score == 5:
 
 while computer_score == 5:
     print("YOU LOSE!!!")
-    quit
+    quit()
 
 else:
     quit()
