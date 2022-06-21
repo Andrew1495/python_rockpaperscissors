@@ -1,5 +1,5 @@
 
-play_game =input("Hellow would you like to play rock, paper, scissors ? ".lower())
+play_game =input("Hello would you like to play rock, paper, scissors ? ".lower())
 
 if play_game != "yes":
     print("shutdown!")
